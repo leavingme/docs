@@ -1,55 +1,55 @@
-# Mintlify Starter Kit
+# Mintlify 入门套件
 
-Use the starter kit to get your docs deployed and ready to customize.
+使用此入门套件来部署您的文档并开始自定义。
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+点击此仓库顶部的绿色 **Use this template** 按钮来复制 Mintlify 入门套件。该套件包含以下示例：
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+- 指南页面
+- 导航
+- 自定义选项
+- API 参考页面
+- 常用组件的使用
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+**[遵循完整的快速入门指南](https://starter.mintlify.com/quickstart)**
 
-## AI-assisted writing
+## AI 辅助写作
 
-Set up your AI coding tool to work with Mintlify:
+设置您的 AI 编程工具以配合 Mintlify 使用：
 
 ```bash
 npx skills add https://mintlify.com/docs
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+此命令将为您的 AI 工具（如 Claude Code, Cursor, Windsurf 等）安装 Mintlify 文档技能。该技能包括组件参考、写作标准和工作流指导。
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+查看 [AI 工具指南](/ai-tools) 以进行特定工具的设置。
 
-## Development
+## 开发
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+安装 [Mintlify CLI](https://www.npmjs.com/package/mint) 以在本地预览文档更改。使用以下命令进行安装：
 
-```
+```bash
 npm i -g mint
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+在文档根目录（即 `docs.json` 所在目录）运行以下命令：
 
-```
+```bash
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+在 `http://localhost:3000` 查看本地预览。
 
-## Publishing changes
+## 发布更改
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+从您的 [仪表板](https://dashboard.mintlify.com/settings/organization/github-app) 安装我们的 GitHub 应用，以将更改从仓库同步到部署环境。推送到默认分支后，更改将自动部署到生产环境。
 
-## Need help?
+## 需要帮助？
 
-### Troubleshooting
+### 故障排除
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+- 如果开发环境无法运行：运行 `mint update` 以确保您拥有最新版本的 CLI。
+- 如果页面显示 404：请确保您在包含有效 `docs.json` 的文件夹中运行。
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+### 资源
+- [Mintlify 文档](https://mintlify.com/docs)
