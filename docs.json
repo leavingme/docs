@@ -84,8 +84,8 @@
     }
   },
   "logo": {
-    "light": "/logo/lm-light.png",
-    "dark": "/logo/lm-dark.png"
+    "light": "/logo/lm-light.svg",
+    "dark": "/logo/lm-dark.svg"
   },
   "navbar": {
     "links": [
