@@ -1,0 +1,119 @@
+---
+title: "2026-03-06 科技动态"
+description: "今日最大变化：GPT-5.4 以百万上下文与原生 Computer Use 能力重新定义数字员工标准，Anthropic 则以可测试框架推动 Skill 工程化——两者标志 Agent 生态正式迈入「生产期」。边缘侧，Qwen 3.5 Small 以 9B 掀翻 120B，宣告端侧 Agent 性价比拐点到来。核心信号：模型能力普惠化加速，Agent 正从功能工具进化为可编排的经济主体，基建层竞争已从「造更大」转向「让更多人用得起」。"
+---
+
+> 来源：[https://leavingme.cn/news/2026/03/06](https://leavingme.cn/news/2026/03/06)
+
+## 今日语音播客
+
+<iframe
+  src="https://leavingme.cn/embed/podcast-player.html?src=https://leavingme.cn/audio/podcast-2026-03-06.mp3&title=2026-03-06%20%E6%AF%8F%E6%97%A5%E6%92%AD%E5%AE%A2"
+  width="100%"
+  height="140"
+  frameborder="0"
+  loading="lazy"
+  allow="autoplay"
+>
+
+
+## 今日要点
+
+- GPT-5.4：长上下文+极限推理的「OpenClaw 天选模型」
+- Skill 撰写的反直觉真相：AI 自举无效，原型赛马才有效
+- GPT-5.4 API 定价策略：超出 272K 才双倍计费，Claude 被贴脸开大
+- Qwen 3.5 Small：9B 掀翻 120B 的「边缘 Agent 拐点」已至
+- CLI-Gym：用「健康系统反演」自动生成终端训练数据
+
+## 今日最大变化
+
+- **GPT-5.4：长上下文+极限推理的「OpenClaw 天选模型」**
+- **Skill 撰写的反直觉真相：AI 自举无效，原型赛马才有效**
+
+## 专题追踪更新
+
+- **GPT-5.4 百万上下文登陆：Claude 的护城河正在被填平**：**[OpenAI 以「context + reasoning」双升级反击，Agent 基建格局生变]** · [专题页](/topics/gpt54-long-context-reasoning) · [原文](https://x.com/i/status/2029640270023905474)
+- **Claude Agent SDK 生态爆发：从开发框架到产品基础设施的跃迁**：**Anthropic 的工具链正在成为创业公司的默认基建。** · [专题页](/topics/claude-code-ecosystem) · [原文](https://x.com/i/status/2029600615501074551)
+- **GPT-5.4 的「电脑操控」突破：AI Agent 终于长出「手眼协调」**：**OpenAI 首次将 Computer Use 能力原生集成到通用旗舰模型，桌面操控成功率超越人类。** · [专题页](/topics/agent-ecosystem) · [原文](https://x.com/i/status/2029628065773474271)
+- **Anthropic 给 Skill Creator 装上「质检流水线」：Agent 工具终于可测试了**：**Skill Creator 新增内置测试框架，用自动化评估解决「技能写了不知道灵不灵」的痛点。** · [专题页](/topics/claude-code-ecosystem) · [原文](https://x.com/i/status/2029548875263176877)
+- **OpenClaw 升级后「自我阉割」：工具限制引发 Agent 可靠性危机**：**[新版本工具权限收紧，Agent 陷入「自医不能」困境]** · [专题页](/topics/agent-reliability-multi-model-memory) · [原文](https://x.com/i/status/2029713032406855944)
+
+## 详细内容
+
+### GPT-5.4：长上下文+极限推理的「OpenClaw 天选模型」
+
+**数字生命卡兹克 (@Khazix0918)**
+
+**[OpenClaw 生态迎来模型层最强队友]**
+
+• GPT-5.4 在超长上下文（百万级 Token）和极限推理任务上表现突出，与 OpenClaw 的 Agent 编排架构高度适配
+• 这意味着复杂多步骤任务（如跨仓库重构、大规模代码迁移）的可靠性将显著提升
+• 对开发者而言，「模型能力」与「Agent 编排」的叠加效应正在加速到来
+
+**gakki 锐评**：当模型层开始主动适配 Agent 工作流而非反过来，说明 Agent 范式已经跨越了「概念验证」阶段，进入「基础设施化」深水区。
+
+❤️ 29 · 🔄 2 · 💬 7
+
+[查看原文](https://x.com/i/status/2029756593320182092)
+
+### Skill 撰写的反直觉真相：AI 自举无效，原型赛马才有效
+
+**leifu _/ (@leifuchen)**
+
+**[Skill 工程的核心方法论被验证：蒸馏不如迭代]**
+
+• Anthropic Skill-Creator 的实践揭示：AI 自发生成的 Skill 只是训练数据重述，信息增益趋近于零
+• 有效路径是：人工草拟思路 → 批量生成 10-20 个原型 → AI 筛选迭代 → 择优固化
+• 这与 Claude Code「用几十组原型验证代替需求说明」的开发哲学一致
+
+**gakki 锐评**：「赛马不相马」正在从口号变成工程纪律——在 Agent 时代，需求的最好表达方式不是文档，而是可运行的候选集。
+
+❤️ 25 · 🔄 5 · 💬 1
+
+[查看原文](https://x.com/i/status/2029538793552789916)
+
+### GPT-5.4 API 定价策略：超出 272K 才双倍计费，Claude 被贴脸开大
+
+**歸藏(guizang.ai) (@op7418)**
+
+**[OpenAI 用「分段计费」打价格战，长上下文成本结构重构]**
+• 272K 内正常计费，超出部分 2x，比 Claude 的统一定价更贴合实际使用场景
+• Tool search + 改进的 tool calling 降低大规模工具生态的 token 成本与延迟
+• Agentic 便秘能力（长耗时、多工具工作流）成为官方卖点术语
+
+这是典型的「基础设施层」竞争逻辑：先把价格打下来，再等上层应用爆发。对依赖长上下文的 RAG、代码分析类应用是重大利好。
+
+❤️ 80 · 🔄 6 · 💬 15
+
+[查看原文](https://x.com/i/status/2029624904908509285)
+
+### Qwen 3.5 Small：9B 掀翻 120B 的「边缘 Agent 拐点」已至
+
+**Tz (@Tz_2022)**
+
+**阿里开源 9B 小模型，以 13 倍参数压缩比挑战 GPT OSS 120B，部分基准超越 Gemini 3 Flash 和 Claude Sonnet 4.5。**
+- 纯血开源 + 完全免费，轻薄本和手机均可本地运行
+- 标志着「小模型+端侧算力」路线开始具备生产级可用性
+- 对 Agent 开发者而言，这意味着低成本私有化部署成为可能
+
+gakki 锐评：大模型军备竞赛进入「轻量化反攻」阶段——不再是参数越大越好，而是「单位算力的智能密度」决定胜负。
+
+❤️ 428 · 🔄 64 · 💬 35
+
+[查看原文](https://x.com/i/status/2028611067387974021)
+
+### CLI-Gym：用「健康系统反演」自动生成终端训练数据
+
+**机器之心 JIQIZHIXIN (@jiqizhixin)**
+
+**[无需人工标注，Agent 自学系统运维的破局思路]**
+- 华为、北理工、中科院联合提出：让 Agent 探索正常环境，再逆向构造故障状态
+- 自动生成真实的命令行挑战与修复路径配对数据
+- 解决系统管理任务中「数据标注成本极高」的长期痛点
+
+把「破坏-修复」过程自动化，是训练 Agent 处理复杂系统的聪明 workaround。当大多数研究还在盯着 Web Agent，终端/系统管理这个沉默的大头终于被正视了。
+
+❤️ 21 · 🔄 6 · 💬 0
+
+[查看原文](https://x.com/i/status/2029620458220355855)
+
